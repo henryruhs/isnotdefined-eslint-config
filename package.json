@@ -1,7 +1,7 @@
 {
 	"name": "@isnotdefined/eslint-config",
 	"description": "Yet another JavaScript and TypeScript coding standard",
-	"version": "9.8.0",
+	"version": "10.0.0-beta.1",
 	"license": "MIT",
 	"keywords":
 	[
@@ -26,26 +26,28 @@
 	},
 	"peerDependencies":
 	{
-		"eslint": "^8"
+		"eslint": "^9"
 	},
 	"dependencies":
 	{
-		"@angular-eslint/eslint-plugin": "16.2.0",
-		"@angular-eslint/eslint-plugin-template": "16.2.0",
-		"@angular-eslint/template-parser": "16.2.0",
-		"@typescript-eslint/eslint-plugin": "6.7.5",
-		"@typescript-eslint/parser": "6.7.5",
-		"eslint-plugin-cypress": "2.15.1",
-		"eslint-plugin-deprecation": "2.0.0",
-		"eslint-plugin-import": "2.28.1",
+		"@angular-eslint/eslint-plugin": "19.0.2",
+		"@angular-eslint/eslint-plugin-template": "19.0.2",
+		"@angular-eslint/template-parser": "19.0.2",
+		"@stylistic/eslint-plugin-ts": "3.0.1",
+		"@typescript-eslint/eslint-plugin": "8.23.0",
+		"@typescript-eslint/parser": "8.23.0",
+		"eslint-plugin-cypress": "4.1.0",
+		"eslint-plugin-import": "2.31.0",
 		"eslint-plugin-eslint-comments": "3.2.0",
-		"eslint-plugin-jest": "27.4.2",
+		"eslint-plugin-jest": "28.11.0",
 		"eslint-plugin-jest-formatting": "3.1.0",
-		"eslint-plugin-jsonc": "2.10.0",
-		"eslint-plugin-promise": "6.1.1",
-		"eslint-plugin-rxjs": "5.0.3",
-		"eslint-plugin-no-only-tests": "3.1.0",
-		"eslint-plugin-unicorn": "48.0.1",
-		"eslint-plugin-unused-imports": "3.0.0"
+		"eslint-plugin-jsonc": "2.19.1",
+		"eslint-plugin-promise": "7.2.1",
+		"eslint-plugin-react": "7.37.4",
+		"eslint-plugin-react-hooks": "5.0.0",
+		"eslint-plugin-react-refresh": "0.4.18",
+		"eslint-plugin-no-only-tests": "3.3.0",
+		"eslint-plugin-unicorn": "56.0.1",
+		"eslint-plugin-unused-imports": "4.1.4"
 	}
 }

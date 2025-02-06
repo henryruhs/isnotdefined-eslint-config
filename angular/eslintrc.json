@@ -9,7 +9,7 @@
 			"parser": "@typescript-eslint/parser",
 			"parserOptions":
 			{
-				"project": "tsconfig.json"
+				"projectService": true
 			},
 			"processor": "@angular-eslint/template/extract-inline-html",
 			"plugins":

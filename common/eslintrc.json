@@ -209,13 +209,12 @@
 			"parser": "@typescript-eslint/parser",
 			"parserOptions":
 			{
-				"project": "tsconfig.json"
+				"projectService": true
 			},
 			"plugins":
 			[
 				"@typescript-eslint/eslint-plugin",
-				"deprecation",
-				"rxjs"
+				"@stylistic/ts"
 			],
 			"rules":
 			{
@@ -230,17 +229,10 @@
 				],
 				"@typescript-eslint/explicit-module-boundary-types": "error",
 				"@typescript-eslint/member-ordering": "error",
+				"@typescript-eslint/no-deprecated": "error",
 				"@typescript-eslint/no-require-imports": "error",
 				"@typescript-eslint/no-unsafe-member-access": "error",
 				"@typescript-eslint/no-useless-constructor": "error",
-				"@typescript-eslint/type-annotation-spacing":
-				[
-					"error",
-					{
-						"before": true,
-						"after": true
-					}
-				],
 				"@typescript-eslint/typedef":
 				[
 					"error",
@@ -253,13 +245,14 @@
 						"variableDeclaration": true
 					}
 				],
-				"deprecation/deprecation": "error",
-				"rxjs/no-compat": "error",
-				"rxjs/no-finnish": "error",
-				"rxjs/no-internal": "error",
-				"rxjs/no-nested-subscribe": "error",
-				"rxjs/no-unsafe-takeuntil": "error",
-				"rxjs/no-topromise": "error"
+				"@stylistic/ts/type-annotation-spacing":
+				[
+					"error",
+					{
+						"before": true,
+						"after": true
+					}
+				]
 			}
 		}
 	]
