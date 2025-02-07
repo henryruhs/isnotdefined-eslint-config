@@ -11,7 +11,10 @@ module.exports =
 		'languageOptions':
 		{
 			'parser': require('jsonc-eslint-parser'),
-			'projectService': true
+			'parserOptions':
+			{
+				'projectService': true
+			}
 		},
 		'plugins':
 		{

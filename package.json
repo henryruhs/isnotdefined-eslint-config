@@ -1,7 +1,7 @@
 {
 	"name": "@isnotdefined/eslint-config",
 	"description": "Yet another JavaScript and TypeScript coding standard",
-	"version": "10.0.0-beta.3",
+	"version": "10.0.0-beta.4",
 	"license": "MIT",
 	"keywords":
 	[
@@ -23,15 +23,6 @@
 	{
 		"type": "git",
 		"url": "https://github.com/isnotdefinedcom/eslint-config.git"
-	},
-	"exports":
-	{
-		".": "./common/index.cjs",
-		"./angular": "./angular/index.cjs",
-		"./common": "./common/index.cjs",
-		"./cypress": "./cypress/index.cjs",
-		"./jest": "./jest/index.cjs",
-		"./react": "./react/index.cjs"
 	},
 	"peerDependencies":
 	{
@@ -59,5 +50,14 @@
 		"eslint-plugin-unicorn": "56.0.1",
 		"eslint-plugin-unused-imports": "4.1.4",
 		"jsonc-eslint-parser": "2.4.0"
+	},
+	"exports":
+	{
+		".": "./common/index.cjs",
+		"./angular": "./angular/index.cjs",
+		"./common": "./common/index.cjs",
+		"./cypress": "./cypress/index.cjs",
+		"./jest": "./jest/index.cjs",
+		"./react": "./react/index.cjs"
 	}
 }
