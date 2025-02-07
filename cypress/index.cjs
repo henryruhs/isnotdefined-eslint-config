@@ -10,7 +10,7 @@ module.exports =
 		],
 		'languageOptions':
 		{
-			'parser': require('jsonc-eslint-parser'),
+			'parser': require('@typescript-eslint/parser'),
 			'parserOptions':
 			{
 				'projectService': true
