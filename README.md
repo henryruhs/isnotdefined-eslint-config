@@ -23,10 +23,10 @@ Refer the coding standard inside your `eslint.config.cjs` file:
 ```js
 module.exports =
 [
-	require('@isnotdefined/eslint-config/angular'),
-	require('@isnotdefined/eslint-config/common'),
-	require('@isnotdefined/eslint-config/cypress'),
-	require('@isnotdefined/eslint-config/jest'),
-	require('@isnotdefined/eslint-config/react')
+	...require('@isnotdefined/eslint-config/angular'),
+	...require('@isnotdefined/eslint-config/common'),
+	...require('@isnotdefined/eslint-config/cypress'),
+	...require('@isnotdefined/eslint-config/jest'),
+	...require('@isnotdefined/eslint-config/react')
 ]
 ```
