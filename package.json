@@ -1,7 +1,7 @@
 {
 	"name": "@isnotdefined/eslint-config",
 	"description": "Yet another JavaScript and TypeScript coding standard",
-	"version": "10.0.0-beta.1",
+	"version": "10.0.0-beta.2",
 	"license": "MIT",
 	"keywords":
 	[
@@ -48,6 +48,7 @@
 		"eslint-plugin-react-refresh": "0.4.18",
 		"eslint-plugin-no-only-tests": "3.3.0",
 		"eslint-plugin-unicorn": "56.0.1",
-		"eslint-plugin-unused-imports": "4.1.4"
+		"eslint-plugin-unused-imports": "4.1.4",
+		"jsonc-eslint-parser": "2.4.0"
 	}
 }

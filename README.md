@@ -18,17 +18,15 @@ npm install @isnotdefined/eslint-config
 Usage
 -----
 
-Refer the coding standard inside your `.eslintrc` file:
+Refer the coding standard inside your `eslint.config.cjs` file:
 
-```json
-{
-	"extends":
-	[
-		"@isnotdefined/eslint-config/angular",
-		"@isnotdefined/eslint-config/common",
-		"@isnotdefined/eslint-config/cypress",
-		"@isnotdefined/eslint-config/jest",
-		"@isnotdefined/eslint-config/react"
-	]
-}
+```js
+module.exports =
+[
+	require('@isnotdefined/eslint-config/angular'),
+	require('@isnotdefined/eslint-config/common'),
+	require('@isnotdefined/eslint-config/cypress'),
+	require('@isnotdefined/eslint-config/jest'),
+	require('@isnotdefined/eslint-config/react')
+]
 ```
