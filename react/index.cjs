@@ -31,14 +31,17 @@ module.exports =
 		'rules':
 		{
 			'react/jsx-boolean-value': 'error',
-			'react/jsx-curly-spacing': 'error',
+			'react/jsx-curly-spacing': [ 'error', 'always' ],
 			'react/jsx-fragments':
 			[
 				'error',
 				'element'
 			],
+			'react/jsx-key': 'error',
 			'react/jsx-pascal-case': 'error',
+			'react/jsx-no-duplicate-props': 'error',
 			'react/no-deprecated': 'error',
+			'react/jsx-no-undef': 'error',
 			'react-hooks/rules-of-hooks': 'error',
 			'react-refresh/only-export-components': 'error'
 		}
