@@ -1,7 +1,7 @@
 {
 	"name": "@isnotdefined/eslint-config",
 	"description": "Yet another JavaScript and TypeScript coding standard",
-	"version": "10.2.0",
+	"version": "10.3.0",
 	"license": "MIT",
 	"keywords":
 	[
@@ -46,7 +46,7 @@
 		"eslint-plugin-react": "7.37.5",
 		"eslint-plugin-react-hooks": "6.1.0",
 		"eslint-plugin-no-only-tests": "3.3.0",
-		"eslint-plugin-unicorn": "61.0.2",
+		"eslint-plugin-unicorn": "56.0.1",
 		"eslint-plugin-unused-imports": "4.2.0",
 		"jsonc-eslint-parser": "2.4.1"
 	},
