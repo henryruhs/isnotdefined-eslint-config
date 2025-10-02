@@ -18,8 +18,7 @@ module.exports =
 		{
 			'@typescript-eslint': require('@typescript-eslint/eslint-plugin'),
 			'react': require('eslint-plugin-react'),
-			'react-hooks': require('eslint-plugin-react-hooks'),
-			'react-refresh': require('eslint-plugin-react-refresh')
+			'react-hooks': require('eslint-plugin-react-hooks')
 		},
 		'settings':
 		{
@@ -42,8 +41,7 @@ module.exports =
 			'react/jsx-no-duplicate-props': 'error',
 			'react/no-deprecated': 'error',
 			'react/jsx-no-undef': 'error',
-			'react-hooks/rules-of-hooks': 'error',
-			'react-refresh/only-export-components': 'error'
+			'react-hooks/rules-of-hooks': 'error'
 		}
 	}
 ]

@@ -224,6 +224,7 @@ module.exports =
 		'rules':
 		{
 			'@typescript-eslint/ban-ts-comment': 'error',
+			'@typescript-eslint/consistent-type-imports': 'error',
 			'@typescript-eslint/dot-notation': 'error',
 			'@typescript-eslint/explicit-member-accessibility':
 			[
