@@ -94,7 +94,29 @@ module.exports =
 			[
 				'error',
 				{
-					'newlines-between': 'always'
+					'groups':
+					[
+						'type',
+						'builtin',
+						'external',
+						'internal',
+						'parent',
+						'sibling',
+						'index',
+						'unknown'
+					],
+					'pathGroups':
+					[
+						{
+							'pattern': '*.css',
+							'group': 'unknown'
+						}
+					],
+					'alphabetize':
+					{
+						'order': 'asc'
+					},
+					'newlines-between': 'always',
 				}
 			],
 			'indent':

@@ -1,7 +1,7 @@
 {
 	"name": "@isnotdefined/eslint-config",
 	"description": "Yet another JavaScript and TypeScript coding standard",
-	"version": "10.4.0",
+	"version": "10.5.0",
 	"license": "MIT",
 	"keywords":
 	[
