@@ -116,7 +116,7 @@ module.exports =
 					{
 						'order': 'asc'
 					},
-					'newlines-between': 'always',
+					'newlines-between': 'always'
 				}
 			],
 			'indent':
