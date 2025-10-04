@@ -83,6 +83,17 @@ module.exports =
 				'error',
 				'getBeforeSet'
 			],
+			'import/extensions':
+			[
+				'error',
+				'ignorePackages',
+				{
+					js: 'never',
+					jsx: 'never',
+					ts: 'never',
+					tsx: 'never'
+				}
+			],
 			'import/newline-after-import': 'error',
 			'import/no-absolute-path': 'error',
 			'import/no-cycle': 'error',
